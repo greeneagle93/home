@@ -3,7 +3,73 @@
   <head>
     <meta charset="utf-8">
     <title>1000 Hz</title>
-    <link rel="stylesheet" href="css/style.css">
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 50px;
+  background-color: #000;
+}
+
+.grandparent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: #000;
+  padding: 0px;
+}
+
+.parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media all and (min-width: 36em) {
+  .parent {
+    width: 12.5%;
+  }
+}
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.green {
+  background-color: lime;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+</style>
+
   </head>
   <body>
   <div class="grandparent">
